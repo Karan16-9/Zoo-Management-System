@@ -1,24 +1,46 @@
 public class CarInfo {
-            public static void main(String[] args) {
-                // Declare and initialize a String variable for the car's make
-                String make = "Ford";
+    public static void main(String[] args) {
+        // Declare and initialize a String variable for the car's make
+        //String make = "Ford";
 
-                // Declare and initialize a String variable for the car's model
-                String model = "Mustang";
+        // Declare and initialize a String variable for the car's model
+        //String model = "Mustang";
 
-                // Declare and initialize an integer variable for the car's year
-                int year = 2022;
+        // Declare and initialize an integer variable for the car's year
+        //int year = 2022;
 
-                // Declare and initialize a double variable for the car's mileage
-                double mileage = 15002.5;
+        // Declare and initialize a double variable for the car's mileage
+        //double mileage = 15002.5;
 
-                // Declare and initialize a boolean variable for automatic transmission
-                boolean isAutomatic = true;
+        // Declare and initialize a boolean variable for automatic transmission
+        //boolean isAutomatic = true;
 
-                System.out.println("Car Make: " + make);
-                System.out.println("Car Model: " + model);
-                System.out.println("Car Year: " + year);
-                System.out.println("Car Mileage: " + mileage + " miles");
-                System.out.println("Is the car automatic: " + isAutomatic);
-            }
-        }
+//                System.out.println("Car Make: " + make);
+//                System.out.println("Car Model: " + model);
+//                System.out.println("Car Year: " + year);
+//                System.out.println("Car Mileage: " + mileage + " miles");
+//                System.out.println("Is the car automatic: " + isAutomatic);
+//            }
+//        }
+
+
+        //Strings and arrays
+
+        /*String- A sequence of characters represented internally as an array of the char data type
+          They are immutable, once created, can't be changed, have to create a entirely new string.
+            STRING itself is an object having several methods which can be used for performing operations on it
+            For a social media app, we can decide how many characters should be there in the user name
+         */
+
+        String text = "Worried about the future";
+        int length = text.length();
+        char letter = text.charAt(3);
+
+        System.out.println("text string is having length: " + length);
+        System.out.println("Letter at index 3 is: "+ letter);
+
+    }
+}
+
+
+
