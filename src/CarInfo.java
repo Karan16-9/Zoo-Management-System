@@ -33,11 +33,28 @@ public class CarInfo {
          */
 
         String text = "Worried about the future";
+        String name1 = "banana";
+        String name2 = " Banana";
+
         int length = text.length();
         char letter = text.charAt(3);
+        String str1to4 = text.substring(1,4); // does not include the end position
+        boolean output1 = name2.equals(name1);
+        boolean output2 = name2.equalsIgnoreCase(name1);
+        String textinUpperCase = text.toUpperCase();
+        String textinLowerCase = text.toLowerCase();
+        boolean result = text.contains("aana");
+        boolean isStudent = true;
+
+
+
+
+
 
         System.out.println("text string is having length: " + length);
         System.out.println("Letter at index 3 is: "+ letter);
+        System.out.println(" The substring from index 1 to 4. 4 excluded:" + str1to4);
+        System.out.println("Using equals method \"" + name2 + "\" is equal to \"" + name1 + "\": " + output1);
 
     }
 }
